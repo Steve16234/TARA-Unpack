@@ -1,0 +1,24 @@
+# 构建产物
+*.obj
+*.exe
+*.pdb
+*.ilk
+
+# 运行中间产物
+libil2cpp_compressed.bin
+libil2cpp_props.bin
+libil2cpp_size.bin
+libil2cpp_dec.so
+libgedenedo.so
+libhesissti.so
+
+# 大文件一律不入库
+*.so
+*.bin
+
+# 工作区/编辑器
+.workbuddy/
+.vs/
+.vscode/
+__pycache__/
+*.pyc
